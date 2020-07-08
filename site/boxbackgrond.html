@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>box model and background</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: gray;
+		}
+         #box{
+         	background-color: blue;
+         	padding: 10px 10px 10px 10px;
+         	border: 15px solid black;
+         	margin-top: 40px;
+         	width: 500px;
+         	height: 100px;
+         	overflow: auto;
+         	
+         }
+         #content{
+         	background-color: #90EE90
+         }
+      h1{
+      	margin-bottom: 20px;
+      }
+      #bgimg{
+      	height: 800px;
+      	width: 800px;
+      	background-color: red;
+      	text-align: center;
+      	text-transform: uppercase;
+      	color: maroon;
+      	font-size: 40px;
+      	background-image: url("pc.jpg");
+      	background-repeat: inherit;
+      	margin-left: 250px;
+      }
+      .bg{
+      	height: 200px;
+      	width: 400px;
+      	text-align: center;
+      	background-color: yellow;
+      	margin-left: 450px
+	</style>
+</head>
+<body>
+	<h1>Box model and the background property</h1>
+	<div id="box">
+		<div id="content">elements is made of boxClick the “Save Note” button when you want to capture a screen. You can also highlight and save lines from the transcript below. Add your own notes to anything you’ve captured.Click the “Save Note” button when you want to capture a screen. Click the “Save Note” button when you want to capture a screen. You can also highlight and save lines from the transcript below. Add your own notes to anything you’ve captured.You can also highlight and save lines from the transcript below. Add your own notes to anything you’ve captured.</div>
+	</div>
+	<div>Click the “Save Note” button when you want to capture a screen. You can also highlight and save lines from the transcript below. Add your own notes to anything you’ve captured.</div>
+</body><br/>
+<br/>
+<div id="bgimg">nice to have background for paragraph</div>
+<br/>
+<div class="bg">background with color.<br/>background is moved only when u set margin values.</div>
+</html>
